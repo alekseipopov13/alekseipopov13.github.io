@@ -1,0 +1,154 @@
+<!doctype html>
+<title>Aleks</title>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="../Aleksfavicon-041.ico" type="image/x-icon" />
+  <script type="text/javascript" src="4.js"></script>
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #E1E1E1;
+  }
+
+
+  .LogoContainer {
+    height: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+  }
+
+  .mainContainer {
+    color: #181818;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1 0 auto;
+    justify-content: center;
+  }
+
+  .textHead {
+    font-weight: bold;
+    font-size: 48px;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+
+  .textTask {
+    font-style: normal;
+    font-size: 18px;
+    display: none;
+  }
+
+  .navContainer {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+  }
+
+  .navPrev {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .navNext {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navChoose {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navContainer a {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20pt;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  .navContainer a:hover {
+    font-weight: bold;
+  }
+
+
+
+  .one {
+    display: inline-block;
+    padding: 1%;
+    background: #181818;
+    color: #E1E1E1;
+    visibility: hidden;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease, ;
+    transition: 0.2s ease;
+  }
+
+  .one a {
+    text-decoration: none;
+    color: #E1E1E1;
+  }
+
+  .two {
+    font-weight: bold;
+    font-size: 48px;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <div class="LogoContainer">
+    <a href="../index.html"><img src="../logo.svg" alt="logo"></a>
+  </div>
+  <div class="mainContainer">
+
+    <div id="button" class="two">выплывающее меню</div>
+    <div id="hidden" class="one">
+      <p><a href="#">пункт меню 1</a></p>
+      <p><a href="#">пункт меню 2</a></p>
+      <p><a href="#">пункт меню 3</a></p>
+      <p><a href="#">пункт меню 4</a></p>
+      <p><a href="#">пункт меню 5</a></p>
+    </div>
+
+
+  </div>
+  <div class="navContainer">
+    <div class="navPrev">
+      <a href="3.html">предыдущее задание</a>
+    </div>
+    <div class="navChoose">
+      <a href="task2.html">выбор задания</a>
+    </div>
+    <div class="navNext">
+      <a href="5.html">следующее задание</a>
+    </div>
+  </div>
+
+</body>

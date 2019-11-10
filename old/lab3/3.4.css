@@ -1,0 +1,17 @@
+blockquote{
+margin-top: 2em;
+margin-bottom: 2em;
+margin-left: 2em;
+margin-right: 2em;
+}
+p::before{
+content: "«";
+}
+p::after{
+content: "»";
+margin-left: 2em;
+}
+p::before, p::after{
+color: #89273d;
+font-size: 2em;
+}

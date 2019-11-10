@@ -1,0 +1,130 @@
+<!doctype html>
+<title>Aleks</title>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="Aleksfavicon-041.ico" type="image/x-icon" />
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: row
+  }
+
+  .leftSide {
+    background: #181818;
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lsTextContainer {
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lsText {
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 36pt;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .rightSide {
+    background: #E5E5E5;
+    padding: 0px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rsLogoContainer {
+    height: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .rsContentContainer {
+    height: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rsTextMain {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 36pt;
+    text-align: right;
+  }
+
+  .rsBottomContainer {
+    height: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .rsBottomContainer a {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20pt;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  .rsBottomContainer a:hover {
+    font-weight: bold;
+  }
+
+
+</style>
+
+<body>
+  <div class="leftSide">
+    <div class="lsTextContainer">
+      <p class="lsText">Алексей Попов</p>
+      <p class="lsText">группа 941</p>
+      <p class="lsText">прикладная информатика в дизайне</p>
+    </div>
+  </div>
+
+  <div class="rightSide">
+    <div class="rsLogoContainer">
+      <img src="logo.svg" alt="logo">
+    </div>
+    <div class="rsContentContainer">
+      <p class="rsTextMain">сайт, на котором предствалены
+        все выполненные мной работы
+        по дисциплине
+        web-программирование</p>
+    </div>
+    <div class="rsBottomContainer">
+      <a href="1/task1.html" >№1 основы языка JavaScript</a>
+      <a href="2/task2.html" >№2 решение задач веб-разработки на языке JavaScript</a>
+    </div>
+
+  </div>
+</body>

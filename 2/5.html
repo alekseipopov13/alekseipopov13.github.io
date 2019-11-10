@@ -1,0 +1,148 @@
+<!doctype html>
+<title>Aleks</title>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="../Aleksfavicon-041.ico" type="image/x-icon" />
+  <script type="text/javascript" src="5.js"></script>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #E1E1E1;
+  }
+
+
+  .LogoContainer {
+    height: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+  }
+
+  .mainContainer {
+    color: #181818;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1 0 auto;
+  }
+
+  .navContainer {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+  }
+
+  .navPrev {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .navNext {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navChoose {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navContainer a {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20pt;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  .navContainer a:hover {
+    font-weight: bold;
+  }
+
+  input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #181818;
+    border: none;
+    border-bottom: 2px solid #181818;
+    transition: 0.2s;
+    outline: none;
+    background: #E1E1E1;
+  }
+
+  input:focus {
+    border-bottom: 4px solid #181818;
+    background: #E1E1E1;
+  }
+
+  ::-webkit-input-placeholder {
+    font-family: Montserrat, Roboto, sans-serif;
+    color: #696969;
+    font-size: 18px;
+  }
+
+  ::-moz-placeholder {
+    font-family: Montserrat, Roboto, sans-serif;
+    color: #696969;
+    font-size: 18px;
+  }
+
+  /* Firefox 19+ */
+  :-moz-placeholder {
+    font-family: Montserrat, Roboto, sans-serif;
+    color: #696969;
+    font-size: 18px;
+  }
+
+  /* Firefox 18- */
+  :-ms-input-placeholder {
+    font-family: Montserrat, Roboto, sans-serif;
+    color: #696969;
+    font-size: 18px;
+  }
+</style>
+
+<body>
+  <div class="LogoContainer">
+    <a href="../index.html"><img src="../logo.svg" alt="logo"></a>
+  </div>
+  <div class="mainContainer">
+    <input id="input" placeholder="латинские заглавные буквы?" />
+  </div>
+  <div class="navContainer">
+    <div class="navPrev">
+      <a href="4.html">предыдущее задание</a>
+    </div>
+    <div class="navChoose">
+      <a href="task2.html">выбор задания</a>
+    </div>
+    <div class="navNext">
+      <a href="6.html">следующее задание</a>
+    </div>
+  </div>
+
+</body>

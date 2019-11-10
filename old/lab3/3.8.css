@@ -1,0 +1,108 @@
+.full {
+  background: #b6b6b6;
+  padding: 20px 0 20px 20px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.bg {
+  background: white;
+}
+
+.header {
+  background: #d6d6d6;
+  padding: 10px 0 10px 10px;
+  color:#5d5d5d;
+}
+
+.c14 {
+  background: rgba(24, 103, 237, 1);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c13 {
+  background: rgba(24, 103, 237, 0.8);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c12 {
+  background: rgba(24, 103, 237, 0.6);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c11 {
+  background: rgba(24, 103, 237, 0.5);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c10 {
+  background: rgba(24, 103, 237, 0.4);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c9 {
+  background: rgba(24, 103, 237, 0.3);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c8 {
+  background: rgba(24, 103, 237, 0.2);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c7 {
+  background: rgb(120, 213, 141);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c6 {
+  background: rgba(240, 31, 213, 0.2);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c5 {
+  background: rgba(240, 31, 213, 0.3);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c4 {
+  background: rgba(240, 31, 213, 0.4);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c3 {
+  background: rgba(240, 31, 213, 0.5);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c2 {
+  background: rgba(240, 31, 213, 0.6);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c1 {
+  background: rgba(240, 31, 213, 0.8);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}
+.c0 {
+  background: rgba(240, 31, 213, 1);
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  color: white;
+}

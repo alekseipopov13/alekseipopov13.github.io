@@ -1,0 +1,38 @@
+.Title {
+    font: bold 24px serif;
+    text-shadow: 2px 2px 3px rgb(68, 67, 67);
+    color: #158add;
+
+}
+
+.Anno {
+    font: 14px sans-serif;
+    color: #158add
+}
+
+.Anno_text {
+    width: 50%;
+}
+
+.bold{
+    font: 14px sans-serif;
+    color: #158add
+}
+
+.blue{
+    font: bold 14px sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.Title_text {
+    width: 50%;
+    font: bold 14px serif;
+    color: #158add
+}
+
+.Author {
+    width: 50%;
+    font: italic 14px sans-serif;
+    position: absolute;
+    text-align: right;
+}

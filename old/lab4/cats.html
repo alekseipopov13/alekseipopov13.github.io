@@ -1,0 +1,76 @@
+<!doctype html>
+<title>lab</title>
+<style>
+  .container {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: gold;
+
+  }
+
+  @media (max-width: 1320px) {
+    #container {background: #86add5;}
+  }
+
+  @media (max-width: 880px) {
+    #container {background: #626262;}
+  }
+  .textandpic-1, .textandpic-2, .textandpic-3,
+  .textandpic-4, .textandpic-5, .textandpic-6 {
+    width: 400px;
+    height: 400px;
+    background: black;
+    margin: 20px;
+  }
+
+
+
+
+
+  .image {
+      width: 400px;
+  }
+
+  .textandpic {
+      border-style: solid;
+      border-width: 2px;
+      border-color: gold;
+      align-items: center;
+      margin: 2px;
+  }
+
+  .cat {
+      text-align: center;
+  }
+</style>
+
+
+<body>
+<div class="container">
+    <div class='textandpic-1'>
+        <img class='image' src="cat.jpg"/>
+        <p class='cat'>Это кот</p>
+    </div>
+    <div class='textandpic-2'>
+        <img class='image' src="cat.jpg"/>
+        <p class='cat'>И это кот</p>
+    </div>
+    <div class='textandpic-3'>
+        <img class='image' src="cat.jpg" />
+        <p class='cat'>Тоже кот</p>
+    </div>
+    <div class='textandpic-4'>
+        <img class='image' src="cat.jpg"/>
+        <p class='cat'>Опять кот</p>
+    </div>
+    <div class='textandpic-5'>
+        <img class='image' src="cat.jpg"/>
+        <p class='cat'>И снова кот</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>

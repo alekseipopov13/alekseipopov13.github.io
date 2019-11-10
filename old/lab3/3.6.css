@@ -1,0 +1,26 @@
+.layer1{
+    position: static;
+    width: 25%;
+    background-size: cover;
+}
+
+.layer2{
+    position: static;
+    width: 25%;
+    background-size: cover;
+    padding: 0% 20% 0% 0%;
+    background: #333333;
+    color: white;
+}
+
+.layer3{
+    position: static;
+    padding: 0% 70% 0% 0%;
+    background-size: cover;
+}
+
+.layer4{
+    position: absolute;
+    padding: 0% 0% 0% 33%;
+    top: 6%;
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<title>Лабораторная №2</title>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="1.js"></script>
+</head>
+
+<style media="screen">
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #E1E1E1;
+  }
+
+
+  .LogoContainer {
+    height: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+  }
+
+  .mainContainer {
+    color: #181818;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1 0 auto;
+  }
+
+  .formBack {
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .formStyle {
+    padding-left: 45%;
+    margin-top: 10%;
+  }
+
+  .output {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .navContainer {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+  }
+
+  .navPrev {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    visibility: hidden;
+  }
+
+  .navNext {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navChoose {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navContainer a {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20pt;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  .navContainer a:hover {
+    font-weight: bold;
+  }
+</style>
+
+<body>
+
+
+  <div class="LogoContainer">
+    <a href="../index.html"><img src="../logo.svg" alt="logo"></a>
+  </div>
+
+  <div class="mainContainer">
+
+
+    <div class="formBack">
+      <form action="" method="post" class="formStyle">
+
+        <table border=0>
+          <tr>
+            <td>Фамилия</td>
+            <td><input type="text" name="sname" size=20 id="sname" /></td>
+          </tr>
+          <tr>
+            <td>Имя</td>
+            <td><input type="text" name="name" size=20 id="name" /></td>
+          </tr>
+          <tr>
+            <td>Никнейм</td>
+            <td><input type="text" name="nickname" size=20 id="nickname" /></td>
+          </tr>
+          <tr>
+            <td>E-mail</td>
+            <td><input type="text" name="email" id="email" /></td>
+          </tr>
+        </table>
+
+        <p><input type="button" value="Зарегистрироваться" onclick="outputAll()" />
+
+      </form>
+    </div>
+    <div class="output" id="textHere">
+    </div>
+  </div>
+
+  <div class="navContainer">
+    <div class="navPrev">
+      <a href="1.html" >предыдущее задание</a>
+    </div>
+    <div class="navChoose">
+      <a href="task2.html">выбор задания</a>
+    </div>
+    <div class="navNext">
+      <a href="2.html">следующее задание</a>
+    </div>
+  </div>
+
+</body>

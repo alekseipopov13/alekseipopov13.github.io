@@ -1,0 +1,168 @@
+<!doctype html>
+<title>Aleks</title>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../taskStyle.css">
+  <link rel="shortcut icon" href="../Aleksfavicon-041.ico" type="image/x-icon" />
+  <script type="text/javascript" src="taskOneLogic.js"></script>
+  <script type="text/javascript" src="taskTwoLogic.js"></script>
+  <script type="text/javascript" src="taskThreeLogic.js"></script>
+  <script type="text/javascript" src="taskFourLogic.js"></script>
+  <script type="text/javascript" src="taskFiveLogic.js"></script>
+  <script type="text/javascript" src="taskSixLogic.js"></script>
+  <script type="text/javascript" src="taskSevenLogic.js"></script>
+  <script type="text/javascript" src="taskEightLogic.js"></script>
+  <script type="text/javascript" src="taskNineLogic.js"></script>
+  <script type="text/javascript" src="taskTenLogic.js"></script>
+  <script type="text/javascript" src="taskElevenLogic.js"></script>
+</head>
+
+
+<body>
+  <div class="LogoContainer">
+    <a href="../index.html"><img src="../logo.svg"  alt="logo"></a>
+  </div>
+  <!-- Задание 1 -->
+
+  <div class="mainContainer">
+    <p class="textHead">задание 1</p>
+    <p class="textTask">Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2). Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний радиус которого равен R1, а внутренний радиус равен R2</p>
+    <div>
+      <input id="r1" name="r1" type="number" placeholder="радиус первого круга" />
+      <input id="r2" name="r2" type="number" placeholder="радиус второго круга" />
+    </div>
+    <a href="#" class="glo" onclick="result1(r1.value, r2.value)">ответ</a>
+
+
+  <!-- Задание 2 -->
+
+
+    <p class="textHead">задание 2</p>
+    <p class="textTask">Даны три числа. Найти среднее из них (т. е. число, расположенное между наименьшим и наибольшим)</p>
+    <div>
+      <input id="n1" name="n1" type="number" placeholder="первое число" />
+      <input id="n2" name="n2" type="number" placeholder="второе число" />
+      <input id="n3" name="n3" type="number" placeholder="третье число" />
+    </div>
+    <a href="#" class="glo" onclick="result2(n1.value, n2.value, n3.value)">ответ</a>
+
+
+  <!-- Задание 3 -->
+
+
+    <p class="textHead">задание 3</p>
+    <p class="textTask">Локатор ориентирован на одну из сторон света («N» — север, «W» — запад, «S» — юг, «E» — восток) и может принимать три цифровые команды поворота: 1 — поворот налево, −1 — поворот направо, 2 — поворот на 180°. Дан символ C —
+      исходная ориентация локатора и целые числа N1 и N2 — две посланные команды. Вывести ориентацию локатора после выполнения этих команд</p>
+    <div>
+      <p>исходная ориентация</p>
+      <select name="C3" id="C3">
+        <option value="N">Север</option>
+        <option value="W">Запад</option>
+        <option value="S">Юг</option>
+        <option value="E">Восток</option>
+      </select>
+      <br>
+      <input id="n13" name="n13" type="number" placeholder="первая команда" />
+      <input id="n23" name="n23" type="number" placeholder="вторая команда" />
+    </div>
+    <a href="#" class="glo" onclick="whereIs()">ответ</a>
+
+
+  <!-- Задание 4 -->
+
+
+    <p class="textHead">задание 4</p>
+    <p class="textTask">Дано целое число N (> 0). Найти сумму 1 + 1/2 + 1/3 + … + 1/N</p>
+    <div>
+      <input id="N4" name="N4" type="number" placeholder="целое число N" />
+    </div>
+    <a href="#" class="glo" onclick="calcSumN()">ответ</a>
+
+
+  <!-- Задание 5 -->
+
+
+    <p class="textHead">задание 5</p>
+    <p class="textTask">Дано целое число N (> 1). Найти наибольшее целое число K, при котором выполняется неравенство 3^K < N</p> <div>
+        <input id="N5" name="N5" type="number" placeholder="целое число N" />
+  </div>
+  <a href="#" class="glo" onclick="powK()">ответ</a>
+
+
+<!-- Задание 6 -->
+
+
+  <p class="textHead">задание 6</p>
+  <p class="textTask">Описать функцию IsSquare(K) логического типа, возвращающую True, если целый параметр K (> 0) является квадратом некоторого целого числа, и False в противном случае. С ее помощью найти количество квадратов в наборе из 10 целых
+    положительных чисел</p>
+  <div>
+    <input id="nums" name="nums" type="text" placeholder="набор чисел" />
+  </div>
+  <a href="#" class="glo" onclick="countSquares()">ответ</a>
+
+<!-- Задание 7 -->
+
+
+  <p class="textHead">задание 7</p>
+  <p class="textTask">Дано целое число N и набор из N целых чисел. Найти номер первого экстремального (т.е. минимального или максимального) элемента из данного набора</p>
+  <div>
+    <input id="n7" name="n7" type="number" placeholder="число N" />
+  </div>
+  <a href="#" class="glo" onclick="whereMinMax()">ответ</a>
+
+
+<!-- Задание 8 -->
+
+
+  <p class="textHead">задание 8</p>
+  <p class="textTask">Дан массив A размера N (N — нечетное число). Вывести его элементы с нечетными номерами в порядке убывания номеров: AN, AN−2, AN−4, …, A1. Условный оператор не использовать.</p>
+  <div>
+    <input id="A" name="A" type="number" placeholder="размер массива" />
+  </div>
+  <a href="#" class="glo" onclick="findNums()">ответ</a>
+
+
+<!-- Задание 9 -->
+
+
+  <p class="textHead">задание 9</p>
+  <p class="textTask">Дан массив размера N. Обнулить элементы массива, расположенные между его минимальным и максимальным элементами (не включая минимальный и максимальный элементы)</p>
+  <div>
+    <input id="arrN" name="arrN" type="text" placeholder="массив чисел" />
+  </div>
+  <a href="#" class="glo" onclick="change()">ответ</a>
+
+
+<!-- Задание 10 -->
+
+
+  <p class="textHead">задание 10</p>
+  <p class="textTask">Даны строки S и S0. Найти количество вхождений строки S0 в строку S</p>
+  <div>
+    <input id="S010" name="S010" type="text" placeholder="строка S0" />
+    <input id="S10" name="S10" type="text" placeholder="строка S" />
+  </div>
+  <a href="#" class="glo" onclick="setTenArray()">ответ</a>
+
+
+<!-- Задание 11 -->
+
+
+  <p class="textHead">задание 11</p>
+  <p class="textTask">Разработать класс для описания цилиндра. Методы:
+    конструктор - присвоение нулевых значений переменным,
+    ввод пользователем с клавиатуры значений свойств класса,
+    расчет величины площади основания цилиндра и вывод ее значения на экран,
+    расчет и вывод на экран площади поверхности цилиндра,
+    расчет объема цилиндра и вывод его значения на экран</p>
+  <div>
+    <input id="R11" name="R11" type="number" placeholder="радиус основания R" />
+    <input id="h11" name="h11" type="number" placeholder="высота цилиндра h" />
+  </div>
+  <a href="#" class="glo" onclick="setIt(R11.value)">ответ</a>
+  <!--    <a href="#" class="glo" onclick="setItObj(R11.value)">ответ</a>  -->
+
+</div>
+
+</body>

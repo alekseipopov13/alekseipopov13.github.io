@@ -1,0 +1,18 @@
+table{
+  width: 100%;
+}
+
+th:first-child{
+  background: red;
+  color: white;
+}
+
+th:nth-child(2){
+  background: orange;
+  color: grey;
+}
+
+th:last-child{
+  background: yellow;
+  color: black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head> 
+    <style type="text/css">
+		#box {
+				width:50px;
+				height:50px;
+				background-color:#0099FF;
+				position:absolute;
+				top:50px;
+				left:50px;
+		}
+</style>
+    <script type="text/javascript">
+		
+		var box = null;
+		
+		function move(vX, vY) {
+				var x = box.offsetLeft + vX * 30;
+				var y = box.offsetTop + vY * 30;
+				
+				box.style.left =  x + "px";
+				box.style.top = y + "px";
+		}
+		
+		window.onload = function () {
+				box = document.getElementById("box");
+		}
+
+</script>
+  </head>
+  <body>
+<div id="box">
+</div>
+<input type="button" value="↓" onclick="move(0, 1)">
+<input type="button" value="↑" onclick="move(0, -1)">
+<input type="button" value="←" onclick="move(-1, 0)">
+<input type="button" value="→" onclick="move(1, 0)">
+
+  </body>
+</html>

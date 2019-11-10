@@ -1,0 +1,188 @@
+<!doctype html>
+<title>Aleks</title>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="../Aleksfavicon-041.ico" type="image/x-icon" />
+  <script type="text/javascript" src="9.js"></script>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #E1E1E1;
+  }
+
+
+  .LogoContainer {
+    height: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+  }
+
+  .mainContainer {
+    color: #181818;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1 0 auto;
+  }
+
+  .textHead {
+    font-weight: bold;
+    font-size: 48px;
+    padding: 0;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .textTask {
+    font-style: normal;
+    font-size: 18px;
+    display: none;
+
+  }
+
+  .navContainer {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+  }
+
+  .navPrev {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .navNext {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navChoose {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navContainer a {
+    color: #181818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20pt;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  .navContainer a:hover {
+    font-weight: bold;
+  }
+
+  .modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 0px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .modal-content{
+    padding-top: 5%;
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 500px;
+    height: 80%;
+  }
+
+  .close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .myImg{
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .myImg:hover{
+    opacity: 0.7;
+  }
+
+</style>
+
+<body>
+  <div class="LogoContainer">
+    <a href="../index.html"><img src="../logo.svg" alt="logo"></a>
+  </div>
+  <div class="mainContainer">
+
+<p class="textHead">только посмотри на эту картинку!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+  qui officia deserunt mollit anim id est laborum.</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+    qui officia deserunt mollit anim id est laborum.</p>
+    <br>
+    <img src="images/1.jpeg" alt="logo" class="myImg" width="150" height="200">
+    <img src="images/2.jpeg" alt="logo" class="myImg" width="150" height="200">
+    <img src="images/3.jpeg" alt="logo" class="myImg" width="150" height="200">
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+
+      </div>
+    </div>
+    <br>
+
+  </div>
+  <div class="navContainer">
+    <div class="navPrev">
+      <a href="8.html">предыдущее задание</a>
+    </div>
+    <div class="navChoose">
+      <a href="task2.html">выбор задания</a>
+    </div>
+    <div class="navNext">
+      <a href="10.html">следующее задание</a>
+    </div>
+  </div>
+
+</body>

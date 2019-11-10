@@ -1,0 +1,85 @@
+<!doctype html>
+<title>Example</title>
+<style>
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "box_1 box_2 box_3"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 30% 20% 1fr;
+  height: 100vh;
+  margin: 0;
+  color:white;
+  }
+
+header{
+  background: #b3b3b3;
+}
+
+ footer{
+   background: #42444d;
+   }
+
+   box_1{
+      background: #7bb642;
+      height:60%;
+      padding: 20px;
+
+   }
+
+    box_2{
+        background: #985ab1;
+        height:50%;
+        padding: 20px;
+
+    }
+
+    box_3 {
+        background: #1faadb;
+        align-self: stretch;
+        padding: 20px;
+}
+
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainbox_1 {
+  grid-area: box_1;
+  }
+#mainbox_2 {
+  grid-area: box_2;
+  }
+#mainbox_3 {
+  grid-area: box_3;
+  }
+</style>
+<body style="font-family: sans-serif">
+  <header id="pageHeader">Header</header>
+  <box_1 id="mainbox_1">Box1
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+       deserunt mollit anim id est laborum.</p>
+     </box_1>
+  <box_2 id="mainbox_2">Box2
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+       deserunt mollit anim id est laborum.</p>
+     </box_2>
+  <box_3 id="mainbox_3">Box3
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+       deserunt mollit anim id est laborum.</p>
+     </box_3>
+  <footer id="pageFooter">Footer</footer>
+</body>

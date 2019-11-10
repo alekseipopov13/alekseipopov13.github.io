@@ -1,0 +1,54 @@
+table, tr, th, td{
+    border-collapse: collapse; /*исключение двойной границы*/
+    border: 1px solid  #5aaff5;
+}
+
+tr, th, td{
+    padding: 5px; /*отступы с каждой стороны*/
+}
+
+th{
+    color: white;
+    background-color: #508abb;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){ /*все нечетные элементы*/
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #f4fbff;
+    border-collapse: collapse;
+}
+
+tr:nth-child(9){
+    background-color: #e5f5ff;
+    font: bold serif;
+    border-collapse: collapse;
+}
+
+td:nth-child(2){
+    border: 1px solid  #5aaff5;
+    border-collapse: collapse;
+}
+
+td:nth-child(3){
+    border: 1px solid  #5aaff5;
+    border-collapse: collapse;
+}
+
+td:nth-child(4){
+    text-align: right;
+    border: 1px solid  #5aaff5;
+    border-collapse: collapse;
+}
+
+td:nth-child(5){
+    text-align: right;
+}
+
+tr:nth-child(7) td:nth-child(5){
+    background-color: #ffcccc;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  font-family: Montserrat, Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: #E1E1E1;
+}
+
+
+.LogoContainer {
+  height: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+}
+
+.mainContainer {
+  color: #181818;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex: 1 0 auto;
+}
+
+.textHead {
+  font-weight: bold;
+  font-size: 48px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.textTask {
+  font-style: normal;
+  font-size: 18px;
+  color: #181818;
+}
+
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #181818;
+  border: none;
+  border-bottom: 2px solid #181818;
+  transition: 0.2s;
+  outline: none;
+  background: #E1E1E1;
+}
+
+input:focus {
+  border-bottom: 4px solid #181818;
+      background: #E1E1E1;
+}
+
+::-webkit-input-placeholder {
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #696969;
+  font-size: 18px;
+}
+
+::-moz-placeholder {
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #696969;
+  font-size: 18px;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #696969;
+  font-size: 18px;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #696969;
+  font-size: 18px;
+}
+
+a.glo {
+  color: #181818;
+  padding: 10px 20px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  display: block;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #181818 50%, #181818);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.2s ease-in;
+  font: 400 18px Montserrat, Roboto, sans-serif;
+  border: 2px solid #181818;
+}
+
+a.glo:hover {
+  background-position: 0 0;
+  color: #E1E1E1;
+}

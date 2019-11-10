@@ -1,0 +1,23 @@
+.text{
+    font: 14px serif;
+    width: 50%;
+    right: 35%;
+}
+
+.text h1{
+    background-color: #008b66;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+}
+
+.text p{
+    right: 50%;
+    position: absolute;
+    top: 50px;
+    background-color: #dfe6e1;
+    color: black;
+    left: 5%;
+    padding: 20px;
+    z-index: 1;
+}

@@ -1,0 +1,33 @@
+#zadanie-3 {
+   display: inline-flex;
+   flex-wrap: wrap;
+   background: #bacdb4;
+ }
+
+ @media (max-width: 1320px) {
+   #zadanie-3 {background: #86add5;}
+ }
+
+ @media (max-width: 880px) {
+   #zadanie-3 {background: #626262;}
+ }
+ .img-3-1, .img-3-2, .img-3-3,
+ .img-3-4, .img-3-5, .img-3-6 {
+   width: 400px;
+   height: 400px;
+   background: black;
+   margin: 20px;
+ }
+
+
+ .image {
+     width: 400px;
+ }
+
+ .text-3 {
+   color: white;
+   font-size: 16px;
+   width: 200px;
+   text-align: center;
+   margin: 35px auto;
+ }
